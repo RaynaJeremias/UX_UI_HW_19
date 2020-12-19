@@ -1,0 +1,90 @@
+.topNav{
+    display: flex;
+    vertical-align: top;
+    /* position: absolute; */
+}
+.logo{
+    display: flex;
+    width: 2%;
+    text-align: left;
+}
+
+.imageLogo{
+    width: 30px;
+    height: 70px;
+}
+
+.navContainer{
+    display: flex;
+    width: 98%;
+    justify-content: space-evenly;
+
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    padding: 0;
+}
+
+ul{
+    display: flex;
+    text-decoration: none;
+    width: 50%;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+li{
+    padding-right: 70px;
+    font-family: 'Poiret One', cursive;
+}
+.leftSide{
+    margin: 0;
+}
+
+.rightSide{
+    margin: 0;
+}
+
+.heroImg{
+    
+    padding: 25px;
+    size: 50px;
+    z-index: 20;
+    
+}
+
+#myPicture{
+    width: 100px;
+}
+
+.content{
+    margin: 0 auto;
+}
+p{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+
+}
+.bottomNav{
+    background-color: rgb(43, 43, 43);
+    color: white;
+    padding-left: 25%;
+    padding-right: 25%;
+    vertical-align: baseline;
+}
+bottomNav-ul{
+display: inline-block;
+vertical-align: top;
+padding: 5%;
+text-align: center;
+}
+.image{
+    size: 50px;
+}
+.projects{
+    width: 100%;
+    height: 1400px;
+    background-color: darkgray;
+}
