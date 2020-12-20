@@ -8,6 +8,18 @@
     width: 2%;
     text-align: left;
 }
+/* stuff
+*/
+/* Dropdown Button */
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.important{
+    text-decoration: underline;
+}
 
 .imageLogo{
     width: 30px;
