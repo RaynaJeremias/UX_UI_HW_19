@@ -1,3 +1,6 @@
+.body{ 
+    margin: 0px;
+}
 .topNav{
     display: flex;
     vertical-align: top;
@@ -6,6 +9,7 @@
 .logo{
     display: flex;
     width: 2%;
+    margin-left: 20px;
     text-align: left;
 }
 /* stuff
@@ -83,9 +87,10 @@ p{
 .bottomNav{
     background-color: rgb(43, 43, 43);
     color: white;
-    padding-left: 35%;
+    padding-left: 33%;
     padding-right: 25%;
     vertical-align: baseline;
+    justify-content: center;
 }
 .bottomNav ul{
 display: flex;
@@ -120,10 +125,12 @@ h1{
 
 }
 .mySkills{
-    display: inline;
+    display: flex;
+    justify-content: center;
     width: 100%;
     text-align: center;
-    margin-left: 45.5%;
+    
+    /* margin-left: 45.5%; */
     
 }
 .myWork{
@@ -151,13 +158,18 @@ h1{
 }
 .flexContainer{
     display: grid;
-    width: 100%;
+    text-align: center;
+    /* width: 100%; */
     padding-bottom: 100px;
+    /* margin: 25px; */
     flex-direction: row;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: 
     "research design webdevelopment";
+}
+.borderSpacing{
+    margin: 50px;
 }
 #researchIcon{
     height:200px;
@@ -173,6 +185,26 @@ h1{
     height: 200px;
     width: 200px;
     padding: 45px;
+}
+#ski{
+    width: 400px;
+    height: 300px;
+}
+#henny{
+    height: 300px;
+    width: 200px;
+}
+#me{
+    height: 300px;
+    width: 200px;
+}
+#piston{
+    height: 300px;
+    width: 200px;
+}
+#tig{
+    height: 300px;
+    width: 200px;
 }
 .inline-block{
     text-align: center;
